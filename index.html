@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A beginner-friendly example of a semantic, accessible, and SEO-optimized HTML5 webpage.">
+  <title>Sample Semantic HTML5 Page</title>
+</head>
+<body>
+  <!-- Page Header -->
+  <header>
+    <h1>Welcome to My Accessible & SEO-Friendly Web Page</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about" title="Learn more about this page">About</a></li>
+        <li><a href="#articles" title="Read our articles">Articles</a></li>
+        <li><a href="#contact" title="Get in touch">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Area -->
+  <main>
+    <!-- About Section -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>
+        This page demonstrates the use of <strong>HTML5 semantic tags</strong>, 
+        accessibility best practices, and beginner-friendly SEO principles. 
+        It is designed to be both human-readable and optimized for search engines.
+      </p>
+    </section>
+
+    <!-- Articles Section -->
+    <section id="articles" aria-labelledby="articles-heading">
+      <h2 id="articles-heading">Articles</h2>
+
+      <article aria-labelledby="article1-title">
+        <h3 id="article1-title">Why Semantic HTML Matters</h3>
+        <p>
+          Semantic HTML helps search engines understand your content better 
+          while improving accessibility for screen readers. 
+          Using correct tags like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, 
+          and <code>&lt;footer&gt;</code> creates a logical structure for your page.
+        </p>
+      </article>
+
+      <article aria-labelledby="article2-title">
+        <h3 id="article2-title">Basics of Web Accessibility</h3>
+        <p>
+          Accessibility ensures that all users, including those with disabilities, 
+          can navigate and understand your site. 
+          Techniques include providing descriptive link text, 
+          using headings in order, and labeling sections with ARIA attributes.
+        </p>
+      </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <address>
+        <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+        <p>Location: Nairobi, Kenya</p>
+      </address>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Semantic Web Page. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
